@@ -1,0 +1,275 @@
+/*--------------------------*/
+/*SOBRE O PROJETO*/
+.textInicial {
+    /*width: 40vw;*/
+    width: 600px;
+}
+#pInicial {
+    font-family: 'Lora', serif;
+    /*font-style: italic;
+    font-size: 1.5rem;*/
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+#textoInicialAfter {
+    display: none;
+}
+#link_exposicao {
+    color: #333333;
+    text-decoration: underline;
+    -webkit-text-decoration-line:  underline !important;
+    font-size: 1.1rem;
+}
+#link_exposicao:hover {
+    color: #66CCCC;
+}
+/*--------------------------*/
+/*CONTAINERS*/
+.anatomiaClose, .especieClose, .processoClose {
+    display: none;
+}
+#sobreAnatomia_container, #sobreEspecie_container, #sobreProcesso_container{
+    display: none;
+}
+/*.subTitleAbout{
+    text-decoration: underline solid #333399;
+}
+.subTitleAbout:hover{
+    text-decoration: underline solid #66CCCC;
+}*/
+/*CONTAINER SOBRE AS ESPÉCIES*/
+.sobreEspecie_container_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.sobreEspecie_container_class > div:first-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sobreEspecie_container_class > div:first-child > img{
+    margin-right: 10px;
+}
+.sobreEspecie_container_class > div:first-child > p{
+    padding: 0;
+    display: none;
+}
+#arvore_filogenetica_hor{
+    display: block;
+    height: 90vh;
+    width: auto;
+    margin-bottom: 30px;
+}
+#arvore_filogenetica_ver{
+    display: none;
+}
+.sp_mapa_botanico:hover {
+    cursor: pointer;
+}
+/*CONTAINER SOBRE A ANATOMIA*/
+.anatomiaRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+}
+.anatomiaRow h3{
+    margin-top: 30px;
+}
+.anatomiaCollumn{
+    width: 50%;
+}
+.anatomiaOneColumn{
+    width: calc(50% - 50px);
+}
+#introAnatomia, #anatomiaFuncao{
+    margin-right: 50px;
+}
+/*--------------------------*/
+/*PESSOAS ENVOLVIDAS*/
+#pessoasBigContainer{
+    /*display: none;*/
+}
+.line_image_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*.line_image_container:nth-child(2) {
+    margin-bottom: 30px;
+}*/
+
+.individual_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.individual_container > p {
+    padding: 5px 0 2px 0;
+}
+
+.individual_image {
+    width: 200px;
+    height: 200px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#susana_image_container{
+    background-image: url("/assets/img/fotografiasPessoas/susanaRodriguez.jpg");
+}
+#mikael_image_container{
+    background-image: url("/assets/img/fotografiasPessoas/mikaelMoura.jpg");
+}
+#luisContainer{
+    display: none;
+}
+#luis_image_container{
+
+}
+#iris_image_container {
+    background-image: url("/assets/img/fotografiasPessoas/iris.jpg");
+}
+#inesBoal_image_container {
+    background-image: url("/assets/img/fotografiasPessoas/inesBoal.jpg");
+}
+#filipe_image_container{
+    background-image: url("/assets/img/fotografiasPessoas/filipeCampelo.jpg");
+}
+#cristinaNabais_image_container{
+    background-image: url("/assets/img/fotografiasPessoas/cristinaNabais.jpg");
+}
+#cristinaMarques_image_container{
+    background-image: url("/assets/img/fotografiasPessoas/cristinaMarques.jpg");
+}
+#catarina_image_container{
+    background-image: url("/assets/img/fotografiasPessoas/catarina.png");
+}
+#ana_image_container{
+    background-image: url("/assets/img/fotografiasPessoas/anaCarvalho.jpg");
+}
+
+.image_cover {
+    position: absolute;
+    background-color: rgba(102, 204, 204, 30%);
+    transition: 1.5s;
+}
+
+.image_cover:hover {
+    background-color: transparent;
+}
+/*.pessoas_organizacao_title{
+    margin-top: 50px;
+}*/
+
+/*--------------------------------*/
+/*LOGOTIPOS*/
+#logoContainer{
+    padding-bottom: 60px;
+}
+.logo_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    margin-bottom: 40px;
+}
+
+.individual_logo {
+    width: 180px;
+    height: auto;
+    /*padding: 20px 20px;*/
+}
+
+#logoJBUC {
+    width: 180px;
+}
+
+#logoUC {
+    width: 250px;
+}
+
+#logoCFE, #logo_IIIUC {
+    width: 230px;
+}
+
+#logo_SMTUC {
+    width: 200px;
+}
+
+#logoAguas {
+    width: 180px;
+}
+
+#logo_DCV {
+    width: 150px;
+}
+/*----------------------------------------------------------*/
+.marginBottom{
+    margin-bottom: 40px;
+}
+/*----------------------------------------------------------*/
+/*MEDIA QUERIES---------------------------------------------*/
+/*769px — 1024px: Small screens, laptops.*/
+@media screen and (max-width: 1200px) {
+    .line_image_container{
+        justify-content: flex-start;
+    }
+}
+
+/*769px — 1024px: Small screens, laptops.*/
+@media screen and (max-width: 1000px) {
+    .textInicial{
+        width: 80%;
+    }
+    .line_image_container{
+        justify-content: space-between;
+    }
+}
+
+/*481px — 768px: iPads, Tablets.*/
+@media screen and (max-width: 768px) {
+    .textInicial{
+        width: 100%;
+    }
+    .anatomiaRow{
+        flex-wrap: wrap;
+    }
+    .anatomiaCollumn{
+        width: 100%;
+    }
+    #introAnatomia, #anatomiaFuncao{
+        margin-right: 0;
+    }
+    #arvore_filogenetica_hor{
+       display: none;
+    }
+    #arvore_filogenetica_ver{
+        display: block;
+        height: 105vh;
+        width: auto;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .line_image_container{
+        justify-content: center;
+    }
+    .logo_container{
+        justify-content: center;
+    }
+}
+
+

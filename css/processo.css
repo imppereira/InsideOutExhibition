@@ -1,0 +1,150 @@
+#processo_container {
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.passoContainer {
+    position: relative;
+    padding: 80px 0;
+}
+
+.processoRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.processoColumn{
+    width: 50%;
+}
+.processoOneColumn{
+    width: calc(50% - 50px);
+}
+.processoFirstCollumn{
+    margin-right: 50px;
+}
+.processoColumnRight{
+    justify-content: flex-end;
+}
+.imageFirst{
+    flex-direction: row-reverse;
+}
+#curiosidadeBigContainer{
+    padding-top: 40px;
+}
+
+#passo1After, #passo2After, #passo3After, #passo4After, #passo5After, #curiosidadeContainer{
+    display: none;
+}
+
+.curiosidade {
+    font-family: 'Lora', serif;
+}
+
+.curiosidadePlus_animation {
+    transform: scale(50%);
+}
+
+.container_right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+}
+
+.c_imagem {
+    display: flex;
+    flex-direction: row;
+    /*align-items: center*/
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.imagem_processo {
+    width: 100%;
+    height: auto;
+    /*padding: 20px 0 20px 0;*/
+}
+#miscrocopioImage_container{
+width: 100%;
+}
+
+#imagem_microscopio {
+    width: 100%;
+    height: auto;
+}
+
+.video_processo_container {
+    width: 550px;
+    height: auto;
+}
+
+.video_processo_container > .video_processo {
+    margin: 0;
+}
+.videoContainer{
+    width: 100%;
+    height: fit-content;
+    margin: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.videoDiv{
+    padding:56.25% 0 0 0;
+    position:relative;
+    width:100%
+}
+.video_processo{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.Title_module_portrait__31b26777{
+    display: none;
+}
+/*.video_processo {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}*/
+#last_video{
+    width: 100%;
+    height: auto;
+}
+
+/*----------------------------------------------------------*/
+/*MEDIA QUERIES---------------------------------------------*/
+/*481px — 768px: iPads, Tablets.*/
+@media screen and (max-width: 768px) {
+    .textInicial{
+        width: 100%;
+    }
+    .passoContainer{
+        padding: 50px 0;
+    }
+    #passo6Container{
+        padding: 0;
+    }
+    .processoRow{
+        flex-wrap: wrap;
+    }
+    .processoColumn{
+        width: 100%;
+    }
+    .processoColumn p:last-child{
+        padding-bottom: 30px;
+    }
+    .processoFirstCollumn{
+        margin-right: 0;
+    }
+    .video_processo{
+        width: 100%;
+    }
+    .videoContainer{
+        margin: 0;
+    }
+}
+
+

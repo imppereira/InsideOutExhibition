@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+<html lang="en" id="htmlContainer">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>De Dentro Para Fora | Sobre o Projeto</title>
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/processo.css">
+    <link rel="stylesheet" href="css/sobre.css">
+
+    <!--J QUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <style>
+        /*LINHA TRACEJADO*/
+        .st0 {
+            fill: none;
+            stroke: #333333;
+            stroke-width: 3;
+            stroke-linecap: round;
+            stroke-miterlimit: 1.396;
+            stroke-dasharray: 5, 10;
+            stroke-dashoffset: 1;
+        }
+
+        /*NOME ESPÉCIE*/
+        .st1 {
+            fill: #333333;
+        }
+
+        .st2 {
+            font-family: 'Lato-Regular';
+        }
+
+        .st3 {
+            font-size: 9.5px;
+        }
+
+        /*LINHA AZUL*/
+        .st4 {
+            fill: none;
+            stroke: #333399;
+            stroke-width: 4;
+            stroke-linecap: round;
+            stroke-miterlimit: 1.0639;
+        }
+
+        /*CÍRCULOS*/
+        .st5 {
+            fill: #66CCCC;
+            stroke: #333399;
+            stroke-width: 3;
+            stroke-miterlimit: 1.0639;
+        }
+
+        /*TEXTO e LINHAS TREE SCALE*/
+        .st6 {
+            fill: #505050;
+        }
+
+        .st7 {
+            font-family: 'Lato-Regular';
+        }
+
+        .st8 {
+            font-size: 10px;
+        }
+
+        .st9 {
+            fill: none;
+            stroke: #505050;
+            stroke-miterlimit: 10;
+        }
+    </style>
+</head>
+<body>
+<header id="header">
+    <nav>
+        <span id="spanLogo">
+             <img id="hamburguer1" src="/assets/img/hamburguer.svg" width="16" height="16"
+                  alt="botão página inicial">
+                    <a href="index.html">DE DENTRO PARA FORA</a>
+        </span>
+        <span class="header_span">
+            <a href="exposicao_digital.html">Exposição Digital</a>
+            <a style="font-weight: 700" href="sobre_o_projeto.html">Sobre o Projeto</a>
+        </span>
+        <span class="header_hamburguer">
+            <img id="hamburguer" src="/assets/img/hamburguer.svg" width="16" height="16"
+                 alt="botão menu">
+        </span>
+    </nav>
+    <div id="header_hamburguer_container" class="hambuguerOpen hamburguerClose">
+        <a class="header_hamburguer_text" href="exposicao_digital.html">Exposição Digital</a>
+        <a style="font-weight: 700" class="header_hamburguer_text" href="sobre_o_projeto.html">Sobre o Projeto</a>
+    </div>
+    <div id="button_container_flex">
+    <span id="button_language_container">
+        <button id="botaoPT_3">PT</button>
+        <button id="botaoEN_3" style="cursor: pointer">EN</button>
+    </span>
+    </div>
+</header>
+<main>
+    <!--BARRA DE PROGRESSO SCROLL-------------------------------------------------------------------------------------->
+    <!--https://pt.stackoverflow.com/questions/292906/barra-de-carregamento-baseado-no-scroll-->
+    <div id="progress-container">
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+    <!--POP UP--------------------------------------------------------------------------------------------------------->
+    <div id="popUpSaberMaisContainer">
+        <div id="popUpSaberMais">
+            <div>
+                <div>
+                    <img class="button_SaberMais button_inContainer" src="/assets/img/button_info_branco.png"
+                         width="140"
+                         height="140"
+                             alt="botão Saber Mais">
+                    <p id="popUpSaberMaisTitle">Saber+</p>
+                </div>
+                <img id="popUpSaberMaisCruz" src="/assets/img/cruz_branca.png" width="32" height="32"
+                     alt="botão fechar o pop up Saber Mais">
+            </div>
+            <div id="conteudoSaberMais"></div>
+        </div>
+    </div>
+    <!--BOTÃO UP-->
+    <div id="seta_scroll_up_container">
+        <p id="seta_scroll_up_p">Voltar ao Processo</p>
+        <img id="seta_scroll_up" src="/assets/img/scroll_up.svg" width="56" height="52"
+             alt="botão deslocar para cima"">
+    </div>
+    <!--SOBRE---------------------------------------------------------------------------------------------------------->
+    <div class="main_container marginBottom">
+        <h1>Sobre o Projeto</h1>
+        <p id="pInicial" class="textInicial">A exposição De Dentro para Fora pretende mostrar as “entranhas” das
+            árvores, os tecidos que compõem o tronco e os ramos, e a forma como os tecidos se organizam em padrões
+            diferentes, consoante a espécie. Para além do seu inegável valor estético, as imagens de anatomia revelam
+            também a sua função na árvore.
+        </p>
+        <div id="textoInicialAfter">
+            <p class="textInicial">A exposição tem duas componentes: uma física e outra digital.</p>
+            <p class="textInicial">A vertente física consiste numa exposição de 15 painéis expostos no Jardim Botânico
+                da Universidade de Coimbra, que estará disponível até ao dia 25 de junho de 2023. Com esta exposição,
+                além de ser possível aprender sobre cada uma das 15 espécies arbóreas e admirar imagens da sua anatomia,
+                o visitante tem a oportunidade de percorrer o Jardim Botânico de Coimbra, passando a conhecê-lo numa
+                perspetiva diferente.
+            </p>
+            <p class="textInicial">A exposição física vai ter continuidade na <a id="link_exposicao"
+                                                                                 href="exposicao_digital.html">exposição
+                digital</a>.
+                Através da exposição digital será possível conhecer “de dentro para fora” um total de 38 espécies do
+                Jardim Botânico da Universidade de Coimbra. A componente digital permite a utilização de interatividade,
+                animações e visualização de informação que criam uma experiência diferente para o utilizador, na qual
+                poderá aprender de forma simples e clara toda a informação exposta.
+            </p>
+        </div>
+        <p id="textoInicialButton" class="buttonHover lerMais">Ler mais...</p>
+    </div>
+    <!--SOBRE A ANATOMIA----------------------------------------------------------------------------------------------->
+    <div class="main_container">
+        <h2 id="anatomiaContainerTitle" class="subTitleAbout buttonHover" onclick="openSobreAnatomia()">Sobre a Anatomia +</h2>
+        <div id="sobreAnatomia_container" class="anatomiaClose">
+            <div class="anatomiaRow">
+                <p id="introAnatomia" class="anatomiaCollumn anatomiaOneColumn">A madeira faz parte dos objetos do nosso
+                    quotidiano, faz parte das cadeiras onde nos
+                    sentamos, das mesas onde
+                    trabalhamos, das portas que se abrem e fecham, das estruturas dos telhados, do calor da lareira.
+                    Para
+                    uma
+                    árvore, a madeira é o seu suporte mecânico, que lhe permite atinigir grandes alturas e suportar a
+                    copa.
+                    Mas
+                    é também através da madeira que a água é transportada das raízes para as folhas, para hidratar os
+                    tecidos. O
+                    todo que é a madeira, é constituído por partes, que são as células organizadas em tecidos, cada um
+                    com a
+                    sua
+                    função, o mundo fascinante da anatomia da madeira.
+                </p>
+            </div>
+            <div class="anatomiaRow">
+                <div id="anatomiaFuncao" class="anatomiaCollumn">
+                    <h3>Anatomia e Função</h3>
+                    <p>A maior parte do tronco e ramos é constituída pelo xilema, vulgarmente
+                        designado por
+                        madeira. A madeira é
+                        produzida por uma pequena camada de células, o câmbio vascular, que se divide todos os anos,
+                        levando ao
+                        aumento em perímetro do tronco e à formação dos anéis de crescimento.
+                    </p>
+                    <p>A principal função do xilema é transportar a água das raízes para as folhas e
+                        dar
+                        suporte mecânico. É
+                        constituído maioritariamente por células mortas, mas também apresenta algumas células vivas de
+                        parênquima organizadas em raios, com a função de armazenar nutrientes e água e de reparar
+                        feridas na
+                        madeira. A capacidade de elevar a água a alturas incríveis revela que as árvores são autênticas
+                        engenheiras hidráulicas. Para elevar a água das raízes para as folhas, através das células
+                        mortas, a
+                        árvore utiliza a força motriz da evaporação da água que ocorre nas folhas. O tecido que rodeia o
+                        xilema
+                        e o câmbio vascular é designado por floema, é essencialmente constituído por células vivas, com
+                        a função
+                        de transportar os açúcares das folhas para as raízes.
+                    </p>
+                </div>
+                <div class="anatomiaCollumn">
+                    <h3>Anatomia e Evolução</h3>
+                    <p>A anatomia também conta histórias sobre a evolução das plantas. Pela anatomia
+                        da
+                        madeira é possível
+                        distinguir dois grandes grupos de plantas, as Gimnospérmicas, plantas que apresentam as sementes
+                        nuas,
+                        mais antigas na história evolutiva, e as Angiospérmicas, as plantas com flores e sementes
+                        protegidas
+                        pelo fruto, mais recentes. A madeira das Gimnospérmicas é constituída fundamentalmente por um
+                        único tipo
+                        de célula, o traqueído, que assume a dupla função de transporte de água e mecânica. Nas
+                        Angiospérmicas
+                        encontramos dois tipos de células, os vasos, especializados em transporte de água, e as fibras,
+                        com uma
+                        função de suporte mecânico.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SOBRE A FILOGENIA---------------------------------------------------------------------------------------------->
+    <div id="sobreEspeciesBigContainer" class="main_container">
+        <h2 id="titleSobreEspecies" class="subTitleAbout buttonHover" onclick="openSobreEspecies()">Sobre a Filogenia +</h2>
+        <div id="sobreEspecie_container" class="especieClose">
+            <div class="sobreEspecie_container_class">
+                <div>
+                    <img id="buttonArvore" class="button_SaberMais button_outContainer" onclick="openSaberArvoreFilo()"
+                         src="/assets/img/button_info_ciano.png" width="140" height="140" alt="botão Saber Mais">
+                </div>
+                <!--ARVORE HORIZONTAL-->
+                <svg id="arvore_filogenetica_hor" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                     viewBox="0 0 696.8 453.8">
+                    <g>
+                        <g id="mainHolder"
+                           transform="translate(348.87868,218.87447) rotate(125) scale(0.10639,0.10639)">
+                            <g id="treeHolder">
+                                <!--Prunus cerasifera-->
+                                <g id="sp20_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-35.5,1815.6l294.3-270.9"/>
+                                    <text transform="matrix(6.9153 -6.366 6.366 6.9153 -522.6224 2300.6848)"
+                                          class="st1 st2 st3">Prunus cerasifera
+                                    </text>
+                                    <path class="st4" d="M258.8,1544.6l40.1-36.9"/>
+                                </g>
+                                <!--Prunus domestica-->
+                                <g id="sp37_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M19.7,1866.4l245.7-315.7"/>
+                                    <text transform="matrix(5.7732 -7.4174 7.4174 5.7732 -390.4545 2437.3738)"
+                                          class="st1 st2 st3">Prunus domestica
+                                    </text>
+                                    <path class="st4" d="M265.4,1550.7l33.5-43"/>
+                                </g>
+                                <!--Cydonia obloga-->
+                                <g id="sp31_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M134.4,1944.5l190.4-351.8"/>
+                                    <text transform="matrix(4.4736 -8.2665 8.2665 4.4736 -131.1978 2492.0818)"
+                                          class="st1 st2 st3">Cydonia obloga
+                                    </text>
+                                    <path class="st4" d="M324.8,1592.7l148.6-274.5"/>
+                                </g>
+                                <!--Ficus macrophylla-->
+                                <g id="sp13_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M328.1,2038.2L458,1659.9"/>
+                                    <text transform="matrix(3.052 -8.8901 8.8901 3.052 124.244 2715.1165)"
+                                          class="st1 st2 st3">Ficus macrophylla
+                                    </text>
+                                    <path class="st4" d="M458,1659.9L655.7,1084"/>
+                                </g>
+                                <!--Quercus canariensis-->
+                                <g id="sp16_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-368,1202.4l398.6-33"/>
+                                    <text transform="matrix(-9.3672 0.7762 -0.7762 -9.3672 -370.1879 1175.4692)"
+                                          class="st1 st2 st3">Quercus canariensis
+                                    </text>
+                                    <path class="st4" d="M30.7,1169.3l75.5-6.3"/>
+                                </g>
+                                <!--Castanea sativa-->
+                                <g id="sp27_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-355,1279.9l387.8-98.2"/>
+                                    <text transform="matrix(-9.1117 2.3074 -2.3074 -9.1117 -361.6573 1253.7021)"
+                                          class="st1 st2 st3">Castanea sativa
+                                    </text>
+                                    <path class="st4" d="M32.7,1181.7l73.4-18.6"/>
+                                </g>
+                                <!--Fagus sylvatica-->
+                                <g id="sp11_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-317.4,1394.9l366.3-160.7"/>
+                                    <text transform="matrix(-8.6077 3.7757 -3.7757 -8.6077 -328.2327 1370.1923)"
+                                          class="st1 st2 st3">Fagus sylvatica
+                                    </text>
+                                    <path class="st4" d="M48.9,1234.2l226.7-99.4"/>
+                                </g>
+                                <!--Myrica faya-->
+                                <g id="sp34_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-219.6,1595.9l334.9-218.8"/>
+                                    <text transform="matrix(-7.8688 5.1409 -5.1409 -7.8688 -234.3509 1573.3022)"
+                                          class="st1 st2 st3">Myrica faya
+                                    </text>
+                                    <path class="st4" d="M115.3,1377.1l504.2-329.4"/>
+                                </g>
+                                <!--Erythrina senegalensis-->
+                                <g id="sp15_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M524.2,2093.9l65.8-394.5"/>
+                                    <text transform="matrix(1.5471 -9.2711 9.2711 1.5471 404.8686 2973.2493)"
+                                          class="st1 st2 st3">Erythrina senegalensis
+                                    </text>
+                                    <path class="st4" d="M590.1,1699.3l114.1-684"/>
+                                </g>
+                                <!--Dovyalis caffra-->
+                                <g id="sp28_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M718.2,2114.9l0-400"/>
+                                    <text transform="matrix(6.331260e-06 -9.3993 9.3993 6.331260e-06 745.174 2700.3489)"
+                                          class="st1 st2 st3">Dovyalis caffra
+                                    </text>
+                                    <path class="st4" d="M718.2,1714.9l0-712.4"/>
+                                </g>
+                                <!--Aesculus californica-->
+                                <g id="sp38_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1015,2078.4l-65.8-394.5"/>
+                                    <text transform="matrix(-1.5471 -9.2711 9.2711 -1.5471 1170.0608 2843.4092)"
+                                          class="st1 st2 st3">Aesculus californica
+                                    </text>
+                                    <path class="st4" d="M949.2,1683.8l-7.6-45.4"/>
+                                </g>
+                                <!--Aesculus hippocastanum-->
+                                <g id="sp36_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1086.4,2060.3L956.6,1682"/>
+                                    <text transform="matrix(-3.052 -8.8901 8.8901 -3.052 1427.3716 2970.2578)"
+                                          class="st1 st2 st3">Aesculus hippocastanum
+                                    </text>
+                                    <path class="st4" d="M956.6,1682l-14.9-43.5"/>
+                                </g>
+                                <!--Acer palmatum-->
+                                <g id="sp19_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1207.3,2009.9l-190.4-351.8"/>
+                                    <text transform="matrix(-4.4736 -8.2665 8.2665 -4.4736 1516.3193 2524.1726)"
+                                          class="st1 st2 st3">Acer palmatum
+                                    </text>
+                                    <path class="st4" d="M1016.9,1658.1l-132.2-244.3"/>
+                                </g>
+                                <!--Tilia europaea-->
+                                <g id="sp10_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1406.3,1891.7L1160.6,1576"/>
+                                    <text transform="matrix(-5.7732 -7.4174 7.4174 -5.7732 1769.6266 2314.4922)"
+                                          class="st1 st2 st3">Tilia europaea
+                                    </text>
+                                    <path class="st4" d="M1160.6,1576l-394-506.2"/>
+                                </g>
+                                <!--Eucalyptus globulus-->
+                                <g id="sp8_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1584.3,1726.7L1290,1455.8"/>
+                                    <text transform="matrix(-6.9153 -6.366 6.366 -6.9153 2176.6973 2235.3606)"
+                                          class="st1 st2 st3">Eucalyptus globulus
+                                    </text>
+                                    <path class="st4" d="M1290,1455.8l-182.1-167.7"/>
+                                </g>
+                                <!--Callistemon rigidus-->
+                                <g id="sp21_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1650,1642.3l-334.9-218.8"/>
+                                    <text transform="matrix(-7.8688 -5.141 5.141 -7.8688 2297.0134 2032.7828)"
+                                          class="st1 st2 st3">Callistemon rigidus
+                                    </text>
+                                    <path class="st4" d="M1315.1,1423.5l-207.2-135.4"/>
+                                </g>
+                                <!--Liquidambar styraciflua-->
+                                <g id="sp12_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1791.6,1430.2l-366.3-160.7"/>
+                                    <text transform="matrix(-8.6077 -3.7757 3.7757 -8.6077 2649.6301 1777.127)"
+                                          class="st1 st2 st3">Liquidambar styraciflua
+                                    </text>
+                                    <path class="st4" d="M1425.3,1269.6L735.6,967"/>
+                                </g>
+                                <!--Nerium oleander-->
+                                <g id="sp32_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1863.1,1242.1l-387.8-98.2"/>
+                                    <text transform="matrix(-9.1117 -2.3074 2.3074 -9.1117 2514.8391 1379.3223)"
+                                          class="st1 st2 st3">Nerium oleander
+                                    </text>
+                                    <path class="st4" d="M1475.4,1143.9l-715-181.1"/>
+                                </g>
+                                <!--Phytolacca dioica-->
+                                <g id="sp14_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1894.1,1056.8l-398.6-33"/>
+                                    <text transform="matrix(-9.3672 -0.7762 0.7762 -9.3672 2577.0349 1086.328)"
+                                          class="st1 st2 st3">Phytolacca dioica
+                                    </text>
+                                    <path class="st4" d="M1495.4,1023.8l-735.1-60.9"/>
+                                </g>
+                                <!--Grevillea robusta-->
+                                <g id="sp18_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1924.7,746.8l-398.6,33"/>
+                                    <text transform="matrix(-9.3672 0.7762 -0.7762 -9.3672 2598.7017 663.8218)"
+                                          class="st1 st2 st3">Grevillea robusta
+                                    </text>
+                                    <path class="st4" d="M1526,779.8l-65,5.4"/>
+                                </g>
+                                <!--Hakea suaveolens-->
+                                <g id="sp35_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1912,671l-387.8,98.2"/>
+                                    <text transform="matrix(-9.1117 2.3074 -2.3074 -9.1117 2586.8516 472.2238)"
+                                          class="st1 st2 st3">Hakea suaveolens
+                                    </text>
+                                    <path class="st4" d="M1524.3,769.2l-63.3,16"/>
+                                </g>
+                                <!--Platanus hispanica-->
+                                <g id="sp2_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1845.5,458.8l-366.3,160.7"/>
+                                    <text transform="matrix(-8.6077 3.7757 -3.7757 -8.6077 2500.9553 141.8273)"
+                                          class="st1 st2 st3">Platanus hispanica
+                                    </text>
+                                    <path class="st4" d="M1479.2,619.5L880.7,882"/>
+                                </g>
+                                <!--Berberis vulgaris-->
+                                <g id="sp29_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1748,248.4l-334.9,218.8"/>
+                                    <text transform="matrix(-7.8688 5.1409 -5.1409 -7.8688 2289.155 -137.3649)"
+                                          class="st1 st2 st3">Berberis vulgaris
+                                    </text>
+                                    <path class="st4" d="M1413.2,467.2L734.9,910.3"/>
+                                </g>
+                                <!--Livistona chinensis-->
+                                <g id="sp3_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1635.6,50l-294.3,270.9"/>
+                                    <text transform="matrix(6.9153 -6.366 6.366 6.9153 1653.8743 69.8145)"
+                                          class="st1 st2 st3">Livistona chinensis
+                                    </text>
+                                    <path class="st4" d="M1341.3,320.9L726.7,886.6"/>
+                                </g>
+                                <!--Cinnamomum camphora-->
+                                <g id="sp30_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1436.3-124.7L1190.6,191"/>
+                                    <text transform="matrix(5.7732 -7.4174 7.4174 5.7732 1457.6042 -108.092)"
+                                          class="st1 st2 st3">Cinnamomum camphora
+                                    </text>
+                                    <path class="st4" d="M1190.6,191l-95.4,122.6"/>
+                                </g>
+                                <!--Persea americana-->
+                                <g id="sp33_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1359.5-174.8l-190.4,351.8"/>
+                                    <text transform="matrix(4.4736 -8.2665 8.2665 4.4736 1383.2581 -161.9998)"
+                                          class="st1 st2 st3">Persea americana
+                                    </text>
+                                    <path class="st4" d="M1169.1,176.9l-74,136.7"/>
+                                </g>
+                                <!--Liriodendron tulipifera-->
+                                <g id="sp6_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1135.4-280.2L1005.5,98.1"/>
+                                    <text transform="matrix(3.052 -8.8901 8.8901 3.052 1160.9564 -271.4081)"
+                                          class="st1 st2 st3">Liriodendron tulipifera
+                                    </text>
+                                    <path class="st4" d="M1005.5,98.1L750.4,841.3"/>
+                                </g>
+                                <!--Juniperus squamata-->
+                                <g id="sp26_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-724.8-2187.9l-65.8,394.5"/>
+                                    <text transform="matrix(1.5471 -9.2711 9.2711 1.5471 -698.2093 -2183.4644)"
+                                          class="st1 st2 st3">Juniperus squamata
+                                    </text>
+                                    <path class="st4" d="M-790.7-1793.4l-28.1,168.7"/>
+                                </g>
+                                <!--Chamaecyparis lawsoniana-->
+                                <g id="sp23_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-818.8-2195.7l0,400"/>
+                                    <text transform="matrix(6.331260e-06 -9.3993 9.3993 6.331260e-06 -791.8247 -2195.7075)"
+                                          class="st1 st2 st3">Chamaecyparis lawsoniana
+                                    </text>
+                                    <path class="st4" d="M-818.8-1795.7l0,171"/>
+                                </g>
+                                <!--Thujopsis dolobrata-->
+                                <g id="sp17_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-914.7-2187.8l65.8,394.5"/>
+                                    <text transform="matrix(-1.5471 -9.2711 9.2711 -1.5471 -888.103 -2192.2805)"
+                                          class="st1 st2 st3">Thujopsis dolobrata
+                                    </text>
+                                    <path class="st4" d="M-848.9-1793.3l29.4,176.3"/>
+                                </g>
+                                <!--Cryptomeria japonia-->
+                                <g id="sp24_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-1030.7-2160.5l129.9,378.3"/>
+                                    <text transform="matrix(-3.052 -8.8901 8.8901 -3.052 -1005.1617 -2169.2485)"
+                                          class="st1 st2 st3">Cryptomeria japonia
+                                    </text>
+                                    <path class="st4" d="M-900.8-1782.2l81.3,237"/>
+                                </g>
+                                <!--Sequoia sempervirens-->
+                                <g id="sp4_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-1136-2115.3l190.4,351.8"/>
+                                    <text transform="matrix(-4.4736 -8.2665 8.2665 -4.4736 -1112.2631 -2128.1177)"
+                                          class="st1 st2 st3">Sequoia sempervirens
+                                    </text>
+                                    <path class="st4" d="M-945.6-1763.5l127.6,235.8"/>
+                                </g>
+                                <!--Taxus baccata-->
+                                <g id="sp7_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-1295.5-2025.5l245.7,315.7"/>
+                                    <text transform="matrix(-5.7732 -7.4174 7.4174 -5.7732 -1274.1494 -2042.0684)"
+                                          class="st1 st2 st3">Taxus baccata
+                                    </text>
+                                    <path class="st4" d="M-1049.8-1709.8l256.3,329.3"/>
+                                </g>
+                                <!--Afrocarpus falcatus-->
+                                <g id="sp1_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-1494.5-1871.9l294.3,270.9"/>
+                                    <text transform="matrix(-6.9153 -6.366 6.366 -6.9153 -1476.2125 -1891.8015)"
+                                          class="st1 st2 st3">Afrocarpus falcatus
+                                    </text>
+                                    <path class="st4" d="M-1200.2-1601l386.1,355.4"/>
+                                </g>
+                                <!--Araucaria heterophylla-->
+                                <g id="sp22_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-1588.3-1751.4l334.9,218.8"/>
+                                    <text transform="matrix(-7.8688 -5.141 5.141 -7.8688 -1573.5394 -1774.0127)"
+                                          class="st1 st2 st3">Araucaria heterophylla
+                                    </text>
+                                    <path class="st4" d="M-1253.4-1532.6l439.3,287"/>
+                                </g>
+                                <!--Abies alba-->
+                                <g id="sp25_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-1776.2-1467.4l366.3,160.7"/>
+                                    <text transform="matrix(-8.6077 -3.7757 3.7757 -8.6077 -1765.325 -1492.1388)"
+                                          class="st1 st2 st3">Abies alba
+                                    </text>
+                                    <path class="st4" d="M-1409.9-1306.7l186.6,81.9"/>
+                                </g>
+                                <!--Cedrus atlantica-->
+                                <g id="sp9_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-1808.5-1373.1l387.8,98.2"/>
+                                    <text transform="matrix(-9.1117 -2.3074 2.3074 -9.1117 -1801.9224 -1399.2675)"
+                                          class="st1 st2 st3">Cedrus atlantica
+                                    </text>
+                                    <path class="st4" d="M-1420.8-1274.9l197.6,50"/>
+                                </g>
+                                <!--Ginkgo biloba-->
+                                <g id="sp5_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-2252.7-466.4l398.6,33"/>
+                                    <text transform="matrix(-9.3672 -0.7762 0.7762 -9.3672 -2250.4834 -493.3116)"
+                                          class="st1 st2 st3">Ginkgo biloba
+                                    </text>
+                                    <path class="st4" d="M-1854.1-433.4l1660.9,137.6"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-1223.2-1224.9l545.3,187.2"/>
+                                    <circle class="st5" cx="-1223.2" cy="-1224.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-818.8-1624.7l-0.6,7.7"/>
+                                    <circle class="st5" cx="-818.8" cy="-1624.7" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-819.5-1616.9v71.7"/>
+                                    <circle class="st5" cx="-819.5" cy="-1616.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-819.5-1545.2l1.5,17.5"/>
+                                    <circle class="st5" cx="-819.5" cy="-1545.2" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-818-1527.7l24.6,147.1"/>
+                                    <circle class="st5" cx="-818" cy="-1527.7" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-793.5-1380.5l47.6,188.1"/>
+                                    <circle class="st5" cx="-793.5" cy="-1380.5" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-814.1-1245.6l68.3,53.2"/>
+                                    <circle class="st5" cx="-814.1" cy="-1245.6" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-745.8-1192.5l67.9,154.8"/>
+                                    <circle class="st5" cx="-745.8" cy="-1192.5" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-677.9-1037.7l484.7,741.9"/>
+                                    <circle class="st5" cx="-677.9" cy="-1037.7" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-193.2-295.8L11.6-32.6"/>
+                                    <circle class="st5" cx="-193.2" cy="-295.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M1095.2,313.6L750.4,841.3"/>
+                                    <circle class="st5" cx="1095.2" cy="313.6" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M750.4,841.3l-24,44.4"/>
+                                    <circle class="st5" cx="750.4" cy="841.3" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M1461,785.2L880.7,882"/>
+                                    <circle class="st5" cx="1461" cy="785.2" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M880.7,882l-143.8,36.4"/>
+                                    <circle class="st5" cx="880.7" cy="882" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M1107.9,1288.1L735.2,998"/>
+                                    <circle class="st5" cx="1107.9" cy="1288.1" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M941.6,1638.5l-56.9-224.6"/>
+                                    <circle class="st5" cx="941.6" cy="1638.5" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M884.7,1413.8l-118.1-344.1"/>
+                                    <circle class="st5" cx="884.7" cy="1413.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M766.6,1069.8L735.2,998"/>
+                                    <circle class="st5" cx="766.6" cy="1069.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M735.2,998l-5.3-8.2"/>
+                                    <circle class="st5" cx="735.2" cy="998" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M106.1,1163.1l169.5-28.3"/>
+                                    <circle class="st5" cx="106.1" cy="1163.1" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M275.6,1134.8l343.8-87.1"/>
+                                    <circle class="st5" cx="275.6" cy="1134.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M619.5,1047.7l77.2-26.5"/>
+                                    <circle class="st5" cx="619.5" cy="1047.7" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M298.9,1507.7l174.5-189.5"/>
+                                    <circle class="st5" cx="298.9" cy="1507.7" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M473.4,1318.2L655.7,1084"/>
+                                    <circle class="st5" cx="473.4" cy="1318.2" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M655.7,1084l41-62.8"/>
+                                    <circle class="st5" cx="655.7" cy="1084" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M696.7,1021.2l7.5-5.9"/>
+                                    <circle class="st5" cx="696.7" cy="1021.2" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M704.2,1015.4l14-12.9"/>
+                                    <circle class="st5" cx="704.2" cy="1015.4" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M718.2,1002.5l11.6-12.6"/>
+                                    <circle class="st5" cx="718.2" cy="1002.5" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M729.8,989.9l5.8-22.8"/>
+                                    <circle class="st5" cx="729.8" cy="989.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M735.6,967l1.3-8.1"/>
+                                    <circle class="st5" cx="735.6" cy="967" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M760.4,962.9l-23.4-3.9"/>
+                                    <circle class="st5" cx="760.4" cy="962.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M736.9,959l0-40.5"/>
+                                    <circle class="st5" cx="736.9" cy="959" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M736.9,918.4l-2-8.1"/>
+                                    <circle class="st5" cx="736.9" cy="918.4" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M734.9,910.3l-8.1-23.7"/>
+                                    <circle class="st5" cx="734.9" cy="910.3" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M726.7,886.6l-0.4-0.9"/>
+                                    <circle class="st5" cx="726.7" cy="886.6" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M726.4,885.7L11.6-32.6"/>
+                                    <circle class="st5" cx="726.4" cy="885.7" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M11.6-32.6L11.6-32.6"/>
+                                    <circle class="st5" cx="11.6" cy="-32.6" r="15"/>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="wrapperHolder">
+                            <g>
+                                <text transform="matrix(1 0 0 1 536.9935 443.9175)" class="st6 st7 st8">Tree scale:
+                                    100
+                                </text>
+                                <path class="st9" d="M622.4,440.3h65.5"/>
+                                <path class="st9" d="M622.4,437.3v6 M687.9,437.3v6 M655.1,440.3v2"/>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+                <!--ARVORE VERTICAL-->
+                <svg id="arvore_filogenetica_ver" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                     viewBox="0 0 453.8 772.4">
+                    <g>
+                        <g id="mainHolder"
+                           transform="translate(348.87868,218.87447) rotate(125) scale(0.10639,0.10639)">
+                            <g id="treeHolder">
+                                <!--Prunus cerasifera-->
+                                <g id="sp20_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-198,142.7L72.9,437"/>
+                                    <text transform="matrix(-6.366 -6.9153 6.9153 -6.366 -177.0609 116.1865)"
+                                          class="st1 st2 st3">Prunus cerasifera
+                                    </text>
+                                    <path class="st4" d="M73,437l36.9,40.1"/>
+                                </g>
+                                <!--Prunus domestica-->
+                                <g id="sp37_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-248.8,197.9L66.9,443.6"/>
+                                    <text transform="matrix(-7.4174 -5.7732 5.7732 -7.4174 -232.6613 168.2944)"
+                                          class="st1 st2 st3">Prunus domestica
+                                    </text>
+                                    <path class="st4" d="M66.9,443.6l43,33.5"/>
+                                </g>
+                                <!--Cydonia obloga-->
+                                <g id="sp31_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-326.9,312.6L24.9,503"/>
+                                    <text transform="matrix(-8.2665 -4.4736 4.4736 -8.2665 -315.2185 281.145)"
+                                          class="st1 st2 st3">Cydonia obloga
+                                    </text>
+                                    <path class="st4" d="M24.9,503l274.5,148.6"/>
+                                </g>
+                                <!--Ficus macrophylla-->
+                                <g id="sp13_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-420.6,506.3l378.3,129.9"/>
+                                    <text transform="matrix(-8.8901 -3.052 3.052 -8.8901 -415.0328 472.992)"
+                                          class="st1 st2 st3">Ficus macrophylla
+                                    </text>
+                                    <path class="st4" d="M-42.3,636.2l575.9,197.7"/>
+                                </g>
+                                <!--Quercus canariensis-->
+                                <g id="sp16_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M415.2-189.8l33,398.6"/>
+                                    <text transform="matrix(-0.7762 -9.3672 9.3672 -0.7762 442.1282 -191.9351)"
+                                          class="st1 st2 st3">Quercus canariensis
+                                    </text>
+                                    <path class="st4" d="M448.3,208.9l6.3,75.5"/>
+                                </g>
+                                <!--Castanea sativa-->
+                                <g id="sp27_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M337.7-176.8L435.9,211"/>
+                                    <text transform="matrix(-2.3074 -9.1117 9.1117 -2.3074 363.8942 -183.4034)"
+                                          class="st1 st2 st3">Castanea sativa
+                                    </text>
+                                    <path class="st4" d="M435.9,210.9l18.6,73.4"/>
+                                </g>
+                                <!--Fagus sylvatica-->
+                                <g id="sp11_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M222.7-139.2l160.7,366.3"/>
+                                    <text transform="matrix(-3.7757 -8.6077 8.6077 -3.7757 247.4114 -149.9912)"
+                                          class="st1 st2 st3">Fagus sylvatica
+                                    </text>
+                                    <path class="st4" d="M383.4,227.1l99.4,226.7"/>
+                                </g>
+                                <!--Myrica faya-->
+                                <g id="sp34_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M21.7-41.4l218.8,334.9"/>
+                                    <text transform="matrix(-5.1409 -7.8688 7.8688 -5.1409 44.2936 -56.097)"
+                                          class="st1 st2 st3">Myrica faya
+                                    </text>
+                                    <path class="st4" d="M240.5,293.5l329.4,504.2"/>
+                                </g>
+                                <!--Erythrina senegalensis-->
+                                <g id="sp15_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-476.3,702.4l394.5,65.8"/>
+                                    <text transform="matrix(-9.2711 -1.5471 1.5471 -9.2711 -477.6438 668.4947)"
+                                          class="st1 st2 st3">Erythrina senegalensis
+                                    </text>
+                                    <path class="st4" d="M-81.7,768.3l684,114.1"/>
+                                </g>
+                                <!--Dovyalis caffra-->
+                                <g id="sp28_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-497.3,896.4l400,0"/>
+                                    <text transform="matrix(-9.3993 -1.841323e-05 1.841323e-05 -9.3993 -501.8814 863.0823)"
+                                          class="st1 st2 st3">Dovyalis caffra
+                                    </text>
+                                    <path class="st4" d="M-97.3,896.4l712.4,0"/>
+                                </g>
+                                <!--Aesculus californica-->
+                                <g id="sp38_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-460.8,1193.2l394.5-65.8"/>
+                                    <text transform="matrix(-9.2711 1.5471 -1.5471 -9.2711 -472.3056 1161.3884)"
+                                          class="st1 st2 st3">Aesculus californica
+                                    </text>
+                                    <path class="st4" d="M-66.2,1127.4l45.4-7.6"/>
+                                </g>
+                                <!--Aesculus hippocastanum-->
+                                <g id="sp36_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-442.7,1264.6l378.3-129.8"/>
+                                    <text transform="matrix(-8.8901 3.052 -3.052 -8.8901 -460.7117 1235.6024)"
+                                          class="st1 st2 st3">Aesculus hippocastanum
+                                    </text>
+                                    <path class="st4" d="M-64.4,1134.8l43.5-14.9"/>
+                                </g>
+                                <!--Acer palmatum-->
+                                <g id="sp19_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-392.3,1385.5l351.8-190.4"/>
+                                    <text transform="matrix(-8.2665 4.4736 -4.4736 -8.2665 -412.2639 1358.4381)"
+                                          class="st1 st2 st3">Acer palmatum
+                                    </text>
+                                    <path class="st4" d="M-40.5,1195.1l244.3-132.2"/>
+                                </g>
+                                <!--Tilia europaea-->
+                                <g id="sp10_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-274.1,1584.5l315.7-245.7"/>
+                                    <text transform="matrix(7.4174 -5.7732 5.7732 7.4174 -696.8887 1947.8525)"
+                                          class="st1 st2 st3">Tilia europaea
+                                    </text>
+                                    <path class="st4" d="M41.6,1338.8l506.2-394"/>
+                                </g>
+                                <!--Eucalyptus globulus-->
+                                <g id="sp8_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-109.1,1762.5l270.9-294.3"/>
+                                    <text transform="matrix(6.366 -6.9153 6.9153 6.366 -617.7604 2354.9263)"
+                                          class="st1 st2 st3">Eucalyptus globulus
+                                    </text>
+                                    <path class="st4" d="M161.8,1468.2l167.7-182.1"/>
+                                </g>
+                                <!--Callistemon rigidus-->
+                                <g id="sp21_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M-24.7,1828.2l218.8-334.9"/>
+                                    <text transform="matrix(5.141 -7.8688 7.8688 5.141 -415.1742 2475.2429)"
+                                          class="st1 st2 st3">Callistemon rigidus
+                                    </text>
+                                    <path class="st4" d="M194.1,1493.3l135.4-207.2"/>
+                                </g>
+                                <!--Liquidambar styraciflua-->
+                                <g id="sp12_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M187.4,1969.8l160.7-366.3"/>
+                                    <text transform="matrix(3.7757 -8.6077 8.6077 3.7757 -159.5228 2827.8506)"
+                                          class="st1 st2 st3">Liquidambar styraciflua
+                                    </text>
+                                    <path class="st4" d="M348,1603.5l302.6-689.7"/>
+                                </g>
+                                <!--Nerium oleander-->
+                                <g id="sp32_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M375.5,2041.3l98.2-387.8"/>
+                                    <text transform="matrix(2.3074 -9.1117 9.1117 2.3074 238.28 2693.0552)"
+                                          class="st1 st2 st3">Nerium oleander
+                                    </text>
+                                    <path class="st4" d="M473.7,1653.6l181.1-715"/>
+                                </g>
+                                <!--Phytolacca dioica-->
+                                <g id="sp14_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M560.8,2072.3l33-398.6"/>
+                                    <text transform="matrix(0.7762 -9.3672 9.3672 0.7762 531.2737 2755.2488)"
+                                          class="st1 st2 st3">Phytolacca dioica
+                                    </text>
+                                    <path class="st4" d="M593.8,1673.6l60.9-735.1"/>
+                                </g>
+                                <!--Grevillea robusta-->
+                                <g id="sp18_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M870.8,2102.9l-33-398.6"/>
+                                    <text transform="matrix(-0.7762 -9.3672 9.3672 -0.7762 953.7656 2776.9216)"
+                                          class="st1 st2 st3">Grevillea robusta
+                                    </text>
+                                    <path class="st4" d="M837.8,1704.2l-5.4-65"/>
+                                </g>
+                                <!--Hakea suaveolens-->
+                                <g id="sp35_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M946.6,2090.2l-98.2-387.8"/>
+                                    <text transform="matrix(-2.3074 -9.1117 9.1117 -2.3074 1145.365 2765.0791)"
+                                          class="st1 st2 st3">Hakea suaveolens
+                                    </text>
+                                    <path class="st4" d="M848.4,1702.5l-16-63.3"/>
+                                </g>
+                                <!--Platanus hispanica-->
+                                <g id="sp2_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1158.8,2023.7l-160.7-366.3"/>
+                                    <text transform="matrix(-3.7757 -8.6077 8.6077 -3.7757 1475.7577 2679.1716)"
+                                          class="st1 st2 st3">Platanus hispanica
+                                    </text>
+                                    <path class="st4" d="M998.1,1657.4l-262.5-598.5"/>
+                                </g>
+                                <!--Berberis vulgaris-->
+                                <g id="sp29_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1369.2,1926.2l-218.8-334.9"/>
+                                    <text transform="matrix(-5.1409 -7.8688 7.8688 -5.1409 1754.9543 2467.3853)"
+                                          class="st1 st2 st3">Berberis vulgaris
+                                    </text>
+                                    <path class="st4" d="M1150.4,1591.4L707.3,913.1"/>
+                                </g>
+                                <!--Livistona chinensis-->
+                                <g id="sp3_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1567.6,1813.8l-270.9-294.3"/>
+                                    <text transform="matrix(-6.366 -6.9153 6.9153 -6.366 2087.8301 2329.6514)"
+                                          class="st1 st2 st3">Livistona chinensis
+                                    </text>
+                                    <path class="st4" d="M1296.7,1519.5L731,904.9"/>
+                                </g>
+                                <!--Cinnamomum camphora-->
+                                <g id="sp30_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1742.3,1614.5l-315.7-245.7"/>
+                                    <text transform="matrix(-7.4174 -5.7732 5.7732 -7.4174 2515.1572 2173.8535)"
+                                          class="st1 st2 st3">Cinnamomum camphora
+                                    </text>
+                                    <path class="st4" d="M1426.6,1368.8l-122.6-95.4"/>
+                                </g>
+                                <!--Persea americana-->
+                                <g id="sp33_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1792.4,1537.7l-351.8-190.4"/>
+                                    <text transform="matrix(-8.2665 -4.4736 4.4736 -8.2665 2415.2646 1836.8939)"
+                                          class="st1 st2 st3">Persea americana
+                                    </text>
+                                    <path class="st4" d="M1440.7,1347.3l-136.7-74"/>
+                                </g>
+                                <!--Liriodendron tulipifera-->
+                                <g id="sp6_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M1897.8,1313.6l-378.3-129.9"/>
+                                    <text transform="matrix(-8.8901 -3.052 3.052 -8.8901 2744 1568.9246)"
+                                          class="st1 st2 st3">Liriodendron tulipifera
+                                    </text>
+                                    <path class="st4" d="M1519.5,1183.7L776.3,928.6"/>
+                                </g>
+                                <!--Juniperus squamata-->
+                                <g id="sp26_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3805.5-546.5L3411-612.3"/>
+                                    <text transform="matrix(-9.2711 -1.5471 1.5471 -9.2711 4580.5688 -451.0485)"
+                                          class="st1 st2 st3">Juniperus squamata
+                                    </text>
+                                    <path class="st4" d="M3411-612.4l-168.7-28.1"/>
+                                </g>
+                                <!--Chamaecyparis lawsoniana-->
+                                <g id="sp23_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3813.3-640.5l-400,0"/>
+                                    <text transform="matrix(-9.3993 -1.841323e-05 1.841323e-05 -9.3993 4868.4429 -673.8905)"
+                                          class="st1 st2 st3">Chamaecyparis lawsoniana
+                                    </text>
+                                    <path class="st4" d="M3413.3-640.5l-171,0"/>
+                                </g>
+                                <!--Thujopsis dolobrata-->
+                                <g id="sp17_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3805.4-736.4l-394.5,65.8"/>
+                                    <text transform="matrix(-9.2711 1.5471 -1.5471 -9.2711 4560.6973 -896.3295)"
+                                          class="st1 st2 st3">Thujopsis dolobrata
+                                    </text>
+                                    <path class="st4" d="M3410.9-670.6l-176.3,29.4"/>
+                                </g>
+                                <!--Cryptomeria japonia-->
+                                <g id="sp24_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3778.1-852.4l-378.3,129.9"/>
+                                    <text transform="matrix(-8.8901 3.052 -3.052 -8.8901 4525.0376 -1144.1316)"
+                                          class="st1 st2 st3">Cryptomeria japonia
+                                    </text>
+                                    <path class="st4" d="M3399.8-722.5l-237,81.3"/>
+                                </g>
+                                <!--Sequoia sempervirens-->
+                                <g id="sp4_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3732.9-957.7l-351.8,190.4"/>
+                                    <text transform="matrix(-8.2665 4.4736 -4.4736 -8.2665 4472.7476 -1396.0748)"
+                                          class="st1 st2 st3">Sequoia sempervirens
+                                    </text>
+                                    <path class="st4" d="M3381.1-767.3l-235.8,127.6"/>
+                                </g>
+                                <!--Taxus baccata-->
+                                <g id="sp7_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3643.1-1117.2l-315.7,245.7"/>
+                                    <text transform="matrix(7.4174 -5.7732 5.7732 7.4174 3659.6377 -1095.8923)"
+                                          class="st1 st2 st3">Taxus baccata
+                                    </text>
+                                    <path class="st4" d="M3327.4-871.5l-329.3,256.3"/>
+                                </g>
+                                <!--Afrocarpus falcatus-->
+                                <g id="sp1_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3489.5-1316.2l-270.9,294.3"/>
+                                    <text transform="matrix(6.366 -6.9153 6.9153 6.366 3509.375 -1297.9507)"
+                                          class="st1 st2 st3">Afrocarpus falcatus
+                                    </text>
+                                    <path class="st4" d="M3218.6-1021.9l-355.4,386.1"/>
+                                </g>
+                                <!--Araucaria heterophylla-->
+                                <g id="sp22_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3369-1410l-218.8,334.9"/>
+                                    <text transform="matrix(5.141 -7.8688 7.8688 5.141 3391.5784 -1395.2688)"
+                                          class="st1 st2 st3">Araucaria heterophylla
+                                    </text>
+                                    <path class="st4" d="M3150.2-1075.1l-287,439.3"/>
+                                </g>
+                                <!--Abies alba-->
+                                <g id="sp25_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M3085-1597.9l-160.7,366.3"/>
+                                    <text transform="matrix(3.7757 -8.6077 8.6077 3.7757 3109.719 -1587.0627)"
+                                          class="st1 st2 st3">Abies alba
+                                    </text>
+                                    <path class="st4" d="M2924.3-1231.6l-81.9,186.6"/>
+                                </g>
+                                <!--Cedrus atlantica-->
+                                <g id="sp9_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M2990.7-1630.2l-98.2,387.8"/>
+                                    <text transform="matrix(2.3074 -9.1117 9.1117 2.3074 3016.8401 -1623.6583)"
+                                          class="st1 st2 st3">Cedrus atlantica
+                                    </text>
+                                    <path class="st4" d="M2892.5-1242.5l-50,197.6"/>
+                                </g>
+                                <!--Ginkgo biloba-->
+                                <g id="sp5_mapa_botanico" class="sp_mapa_botanico">
+                                    <path class="st0" d="M2084-2074.4l-33,398.6"/>
+                                    <text transform="matrix(0.7762 -9.3672 9.3672 0.7762 2110.9065 -2072.2295)"
+                                          class="st1 st2 st3">Ginkgo biloba
+                                    </text>
+                                    <path class="st4" d="M2051-1675.8L1913.4-15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M2842.5-1044.9l-187.2,545.3"/>
+                                    <circle class="st5" cx="2842.5" cy="-1044.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M3242.3-640.5l-7.7-0.6"/>
+                                    <circle class="st5" cx="3242.3" cy="-640.5" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M3234.5-641.2l-71.7,0"/>
+                                    <circle class="st5" cx="3234.5" cy="-641.2" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M3162.8-641.2l-17.5,1.5"/>
+                                    <circle class="st5" cx="3162.8" cy="-641.2" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M3145.3-639.7l-147.1,24.6"/>
+                                    <circle class="st5" cx="3145.3" cy="-639.7" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M2998.1-615.2L2810-567.6"/>
+                                    <circle class="st5" cx="2998.1" cy="-615.2" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M2863.2-635.8l-53.2,68.3"/>
+                                    <circle class="st5" cx="2863.2" cy="-635.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M2810.1-567.5l-154.8,67.9"/>
+                                    <circle class="st5" cx="2810.1" cy="-567.5" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M2655.3-499.6L1913.4-15"/>
+                                    <circle class="st5" cx="2655.3" cy="-499.6" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M1913.4-15l-263.2,204.8"/>
+                                    <circle class="st5" cx="1913.4" cy="-15" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M1304,1273.4L776.3,928.6"/>
+                                    <circle class="st5" cx="1304" cy="1273.4" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M776.3,928.6l-44.4-24"/>
+                                    <circle class="st5" cx="776.3" cy="928.6" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M832.4,1639.2l-96.8-580.3"/>
+                                    <circle class="st5" cx="832.4" cy="1639.2" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M735.6,1058.9l-36.4-143.8"/>
+                                    <circle class="st5" cx="735.6" cy="1058.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M329.5,1286.1l290.1-372.7"/>
+                                    <circle class="st5" cx="329.5" cy="1286.1" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M-20.9,1119.8l224.6-56.9"/>
+                                    <circle class="st5" cx="-20.9" cy="1119.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M203.8,1062.9l344.1-118.1"/>
+                                    <circle class="st5" cx="203.8" cy="1062.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M547.8,944.8l71.8-31.4"/>
+                                    <circle class="st5" cx="547.8" cy="944.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M619.6,913.4l8.2-5.3"/>
+                                    <circle class="st5" cx="619.6" cy="913.4" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M454.5,284.3l28.3,169.5"/>
+                                    <circle class="st5" cx="454.5" cy="284.3" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M482.8,453.8l87.1,343.8"/>
+                                    <circle class="st5" cx="482.8" cy="453.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M569.9,797.7l26.5,77.2"/>
+                                    <circle class="st5" cx="569.9" cy="797.7" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M109.9,477.1l189.5,174.5"/>
+                                    <circle class="st5" cx="109.9" cy="477.1" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M299.4,651.6l234.2,182.3"/>
+                                    <circle class="st5" cx="299.4" cy="651.6" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M533.6,833.9l62.8,41"/>
+                                    <circle class="st5" cx="533.6" cy="833.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M596.4,874.9l5.9,7.5"/>
+                                    <circle class="st5" cx="596.4" cy="874.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M602.2,882.4l12.9,14"/>
+                                    <circle class="st5" cx="602.2" cy="882.4" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M615.1,896.4l12.6,11.6"/>
+                                    <circle class="st5" cx="615.1" cy="896.4" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M627.7,908l22.8,5.8"/>
+                                    <circle class="st5" cx="627.7" cy="908" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M650.6,913.8l8.1,1.3"/>
+                                    <circle class="st5" cx="650.6" cy="913.8" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M654.7,938.6l3.9-23.4"/>
+                                    <circle class="st5" cx="654.7" cy="938.6" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M658.6,915.1h40.5"/>
+                                    <circle class="st5" cx="658.6" cy="915.1" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M699.2,915.1l8.1-2"/>
+                                    <circle class="st5" cx="699.2" cy="915.1" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M707.3,913.1L731,905"/>
+                                    <circle class="st5" cx="707.3" cy="913.1" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M731,904.9l0.9-0.4"/>
+                                    <circle class="st5" cx="731" cy="904.9" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M731.9,904.6l918.3-714.8"/>
+                                    <circle class="st5" cx="731.9" cy="904.6" r="15"/>
+                                </g>
+                                <g>
+                                    <path class="st4" d="M1650.2,189.8L1650.2,189.8"/>
+                                    <circle class="st5" cx="1650.2" cy="189.8" r="15"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="wrapperHolder">
+                        <g>
+                            <text transform="matrix(1 0 0 1 151.4422 764.9883)" class="st6 st7 st8">Tree scale: 100
+                            </text>
+                            <path class="st9" d="M236.9,761.4h65.5"/>
+                            <path class="st9" d="M236.9,758.4v6 M302.4,758.4v6 M269.6,761.4v2"/>
+                        </g>
+                    </g>
+                </svg>
+                <p class="legenda">Legenda: Árvore Filogenética das 38 espécie da exposição.</p>
+            </div>
+        </div>
+    </div>
+    <!--SOBRE O PROCESSO----------------------------------------------------------------------------------------------->
+    <div class="main_container marginBottom">
+        <h2 id="sobreProcessoTitle" class="subTitleAbout buttonHover" onclick="openSobreProcesso()">Sobre o Processo +</h2>
+        <div id="sobreProcesso_container" class="processoClose">
+            <div class="processoRow">
+                <p class="processoColumn processoOneColumn processoFirstCollumn">Para se obterem as imagens de anatomia
+                    da madeira, as amostras passam por uma série de
+                    processos, cujo resultado final permite a visualização dos tecidos e das células utilizando um
+                    microscópio
+                    óptico.</p>
+            </div>
+            <!--PASSO 1-->
+            <div class="passoContainer reveal">
+                <div class="processoRow">
+                    <div class="processoColumn processoFirstCollumn">
+                        <h3>1º Obtenção das Amostras</h3>
+                        <p>Começamos por cortar um pequeno ramo lenhoso e, em laboratório, é
+                            seccionado
+                            um pequeno cilindro desse ramo que é depois colocado em caixas histológicas. Nessas caixas
+                            escreve-se, com um lápis, a identificação da amostra que pode ser o nome da espécie, ou um
+                            código definido pelo coletor das amostras.
+                        </p>
+                    </div>
+                    <div class="processoColumn">
+                        <img class="imagem_processo" src="/assets/img/processo/IMG_5083.jpg" width="2000" height="1236"
+                             alt="imagem das caixas histológicas">
+                        <p class="legenda">Legenda: Caixas Histológicas.</p>
+                    </div>
+                </div>
+            </div>
+            <!--PASSO 2-->
+            <div class="passoContainer reveal">
+                <div class="processoRow processoColumnRight">
+                    <div class="processoColumn">
+                        <h3>2º Fixação, Desidratação, Branqueamento, Infiltração</h3>
+                        <p>Os tecidos passam agora por uma série de processos, desde a interrupção dos
+                            processos metabólicos (fixação), remoção de água (desidratação), preparação para a
+                            impregnação
+                            com
+                            parafina (branqueamento) e infiltração com parafina.
+                        </p>
+                        <div id="passo2After">
+                            <p>As caixas histológicas com a amostra são colocadas num líquido <b>fixador</b>
+                                (formaldeído e ácido acético - FAA), que tem o objetivo de parar todas as reações
+                                metabólicas
+                                das células, nomeadamente a atividade de enzimas, que poderiam degradar os tecidos.
+                            </p>
+                            <p>Em seguida os tecidos passam por uma <b>desidratação</b> gradual,
+                                sendo
+                                mergulhados numa sequência crescente de concentrações de etanol. Se utilizássemos de
+                                início
+                                uma
+                                concentração elevada de etanol a desidratação dos tecidos poderia ser tão rápida que
+                                provocaria
+                                uma deformação dos tecidos. O objetivo é visualizarmos os tecidos o mais próximo da sua
+                                forma
+                                como se estivessem vivos.
+                            </p>
+                            <p>Nesta etapa a água livre dos tecidos é removida, fundamental para as
+                                próximas etapas que implicam a impregnação dos tecidos com parafina, um composto
+                                hidrofóbico, ou
+                                seja, que repele a água. Se os tecidos estivessem cheios de água, não seria possível
+                                impregnar
+                                os tecidos com a parafina.
+                            </p>
+                            <p>Depois de passar pelo processo de desidratação, os tecidos são
+                                mergulhados num composto designado por “Bio-Clear” que vai remover o etanol do processo
+                                de
+                                desidratação. Os tecidos ficam com um aspeto transparente e por isso esta etapa
+                                designa-se
+                                por
+                                <b>branqueamento</b>, ou clareamento.
+                            </p>
+                            <p>Os tecidos são agora mergulhados em parafina líquida, a uma
+                                temperatura
+                                de 60˚C, uma etapa designada por <b>infiltração</b>. A parafina líquida infiltra-se nos
+                                tecidos e,
+                                quando colocada à temperatura ambiente, fica sólida, enrijecendo os tecidos. Esta etapa
+                                é
+                                fundamental para a obtenção de cortes finos dos tecidos.
+                            </p>
+                        </div>
+                        <p id="passo2Button" class="buttonHover lerMais">Ler mais...</p>
+                    </div>
+                </div>
+            </div>
+            <!--PASSO 3-->
+            <div class="passoContainer reveal">
+                <div class="processoRow">
+                    <div class="processoColumn processoFirstCollumn">
+                        <h3>3º Produção dos Blocos de Parafina</h3>
+                        <p>As amostras infiltradas com parafina são agora colocadas num bloco de
+                            parafina. O objetivo é colocar o tecido na orientação em que pretendemos fazer o corte. A
+                            orientação pode ser transversal, radial ou tangencial.
+                        </p>
+                        <div id="passo3After">
+                            <p>Para esta etapa utiliza-se um equipamento designado por mesa de
+                                parafinação. A mesa de parafinação é constituída por três partes principais.
+                            </p>
+                            <p>Numa das partes são colocadas as caixas histológicas com as
+                                amostras
+                                infiltradas com parafina, e os moldes de parafina, pequenos tabuleiros metálicos. Esta
+                                parte
+                                é mantida a uma temperatura de 25-30˚C. A outra parte é constituída pelo depósito de
+                                parafina, aquecido a 60˚C para manter a parafina líquida, e o dispensador de parafina,
+                                para
+                                encher com parafina líquida os moldes metálicos referidos anteriormente. A terceira
+                                parte da
+                                mesa de parafinação é uma placa de gelo que solidifica rapidamente a parafina líquida.
+                            </p>
+                            <p>O tecido é colocado no molde metálico e adiciona-se um pouco de
+                                parafina líquida. Orienta-se o tecido na posição desejada, e adiciona-se mais parafina
+                                para
+                                formar um bloco. Coloca-se depois na placa de gelo para a parafina solidificar
+                                rapidamente e
+                                manter o tecido na posição correta.
+                            </p>
+                        </div>
+                        <p id="passo3Button" class="buttonHover lerMais">Ler mais...</p>
+                    </div>
+                    <div class="processoColumn">
+                        <img class="imagem_processo" src="/assets/img/processo/IMG_6233_2000_legenda.jpg" width="2000"
+                             height="2777"
+                             alt="imagem da mesa de parafinação">
+                        <p class="legenda">Legenda: Mesa de parafinação.</p>
+                    </div>
+                </div>
+                <div class="videoContainer">
+                    <div class="videoDiv reveal">
+                        <iframe class="video_processo"
+                                src="https://player.vimeo.com/video/843927710?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                title="(720p) Processo de produção dos Blocos de Parafina"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!--PASSO 4-->
+            <div class="passoContainer reveal">
+                <div class="processoRow imageFirst">
+                    <div class="processoColumn">
+                        <h3>4º Corte dos Blocos de Parafina</h3>
+                        <p>Para observação ao microscópio óptico é necessário a obtenção de cortes
+                            muito
+                            finos para que a luz passe através dos tecidos. Só desta forma é possível observar o detalhe
+                            dos
+                            tecidos e das células. Para isso, utiliza-se um equipamento designado por micrótomo.
+                        </p>
+                        <p id="passo4After">O bloco de parafina com o tecido, é cortado no
+                            micrótomo para obtenção de cortes finos, entre 7 a 10 µm de espessura (1 µm são 0.001 mm).
+                            Os
+                            cortes obtidos no micrótomo são colocados numa tina com água tépida, onde ficam a flutuar,
+                            permitindo esticar os tecidos. Depois utiliza-se uma lâmina de vidro previamente impregnada
+                            com
+                            glicerina, para colar os tecidos à lâmina.
+                        </p>
+                        <p id="passo4Button" class="buttonHover lerMais">Ler mais...</p>
+                    </div>
+                    <div class="processoColumn processoFirstCollumn">
+                        <img class="imagem_processo" src="/assets/img/processo/IMG_6241_2000.jpg" width="2000"
+                             height="1333"
+                             alt="imagem do micrótomo">
+                        <p class="legenda">Legenda: Micrótomo.</p>
+                    </div>
+                </div>
+                <div class="videoContainer">
+                    <div class="videoDiv reveal">
+                        <iframe class="video_processo"
+                                src="https://player.vimeo.com/video/843920996?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                title="(720p) Processo de Corte dos Blocos de Parafina"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!--PASSO 5-->
+            <div class="passoContainer reveal">
+                <div class="processoRow">
+                    <div class="processoColumn processoFirstCollumn">
+                        <h3>5º Coloração</h3>
+                        <p>Para se observarem melhor os tecidos, tem de se proceder à sua coloração.
+                            Existe uma diversidade enorme de corantes histológicos que podem ser aplicados nos tecidos
+                            apenas com o objetivo de os contrastar, ou com o objetivo de destacar estruturas
+                            específicas.
+                        </p>
+                        <p id="passo5After">Para que os corantes se infiltrem nos tecidos, é
+                            agora
+                            necessário remover a parafina e hidratar os tecidos. Assim, nesta fase, as lâminas com o
+                            tecido
+                            são colocadas a 60˚C para tornar a parafina líquida e facilitar a sua remoção, depois são
+                            colocadas em “Bio Clear”, seguido de uma fase decrescente de soluções de etanol até chegar a
+                            uma
+                            solução com água para hidratar os tecidos. As lâminas são depois colocadas numa solução com
+                            o
+                            corante, ou mistura de corantes. O excesso de corante é depois lavado com água. Para
+                            preservar a
+                            longo prazo os tecidos corados, tem de se proceder novamente à desidratação das amostras. Na
+                            última fase, aplica-se uma lamela para proteger os tecidos, e coloca-se uma gota de resina
+                            que
+                            vai selar a amostra, ou seja, remove o tecido do contacto com o ar, podendo permanecer
+                            inalterada por muito tempo.
+                        </p>
+                        <p id="passo5Button" class="buttonHover lerMais">Ler mais...</p>
+                    </div>
+                    <div class="video_processo_container processoColumn">
+                        <!--  <video id="last_video" controls preload="auto" muted="">
+                              <source src="/assets/video/coloração_s_legenda_1.mp4" type="video/mp4">
+                          </video>-->
+                        <div class="videoDiv reveal">
+                            <iframe class="video_processo"
+                                    src="https://player.vimeo.com/video/843920695?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                                    title="(720p) Processo de Coloração"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!--CURIOSIDADE-->
+                <div id="curiosidadeBigContainer">
+                    <h3 id="curiosidadeButton" class="buttonHover curiosidade">Curiosidade +</h3>
+                    <div id="curiosidadeContainer">
+                        <div class="processoRow">
+                            <div class="processoColumn processoFirstCollumn">
+                                <p>Nas amostras da exposição De Dentro Para Fora foram utilizados dois
+                                    corantes, o azul de astra e a safranina. O azul de Astra cora de azul as paredes
+                                    celulares
+                                    constituídas por celulose. A safranina cora de vermelho as paredes celulares que,
+                                    para
+                                    além
+                                    da celulose, têm um composto designado por lenhina. A lenhina é um composto muito
+                                    resistente
+                                    à degradação e, além disso, é hidrofóbico. As células cujas paredes ficam
+                                    impregnadas
+                                    com
+                                    lenhina, acabam por morrer, permanecendo apenas as paredes celulares. Por isso,
+                                    estes
+                                    dois
+                                    corantes permitem distinguir as paredes que estão lenhificadas (vermelhas), daquelas
+                                    que
+                                    não
+                                    estão lenhificadas (azuis).
+                                </p>
+                            </div>
+                            <div class="processoColumn">
+                                <img class="imagem_processo" src="/assets/img/processo/IMG_6264.jpg" width="3018"
+                                     height="2000"
+                                     alt="imagem de cima demonstra os tecidos de uma espécie arbórea antes do passo da coloração. imagem debaixo representa depois do passo de coloração.">
+                                <p class="legenda">Legenda: Tecidos antes e depois da coloração (cima e baixo
+                                    respetivamente).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--PASSO 6-->
+            <div id="passo6Container" class="passoContainer reveal">
+                <div>
+                    <div class="processoRow">
+                        <div>
+                            <h3>6º Observação em Microscópio</h3>
+                            <p style="width: auto">As amostras podem agora ser observadas e fotografadas
+                                ao
+                                microscópio óptico.</p>
+                        </div>
+                    </div>
+                    <div id="miscrocopioImage_container" class="processoRow">
+                        <div class="processoColumn processoFirstCollumn">
+                            <img class="imagem_processo" src="/assets/img/processo/IMG_6253.jpg" width="2000"
+                                 height="1333"
+                                 alt="imagem de uma amostra no microscópio">
+                            <p class="legenda">Legenda: Amostra no microscópio.</p>
+                        </div>
+                        <div class="processoColumn">
+                            <img class="imagem_processo" src="/assets/img/processo/IMG_6247_2000_1.jpg" width="2000"
+                                 height="1333"
+                                 alt="imagem de um laboratório de biologia. Do lado esquerdo um miscroscópio. Do lado direito um ecrã de computador com a imagem da anatomia de uma árvore que está a ser observada no miscroscópio">
+                            <p class="legenda">Legenda: Microscópio e resultado digital da observação.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PESSOAS ENVOLVIDAS--------------------------------------------------------------------------------------------->
+    <div id="pessoasBigContainer" class="main_container marginBottom">
+        <h2 class="pessoas_organizacao_title">Pessoas Envolvidas</h2>
+        <div class="line_image_container">
+            <div class="individual_container">
+                <div id="ana_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Ana Carvalho</p>
+                <p>Equipa CFE</p>
+            </div>
+            <div class="individual_container">
+                <div id="catarina_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Catarina Maçãs</p>
+                <p>Equipa CISUC</p>
+            </div>
+            <div class="individual_container">
+                <div id="cristinaMarques_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Cristina Marques</p>
+                <p>Equipa CFE</p>
+            </div>
+            <div class="individual_container">
+                <div id="cristinaNabais_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Cristina Nabais</p>
+                <p>Equipa CFE</p>
+            </div>
+            <div class="individual_container">
+                <div id="filipe_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Filipe Campelo</p>
+                <p>Equipa CFE</p>
+            </div>
+
+            <div class="individual_container">
+                <div id="inesBoal_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Inês Boal</p>
+                <p>Equipa CFE</p>
+            </div>
+            <div class="individual_container">
+                <div id="iris_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Íris Pereira</p>
+                <p>Equipa CISUC</p>
+            </div>
+            <div id="luisContainer" class="individual_container">
+                <div id="luis_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Luís Pereira</p>
+                <p>Equipa CISUC</p>
+            </div>
+            <div class="individual_container">
+                <div id="mikael_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Mikael Moura</p>
+                <p>Equipa CFE</p>
+            </div>
+            <div class="individual_container">
+                <div id="susana_image_container" class="individual_image"></div>
+                <div class="individual_image image_cover"></div>
+                <p>Susana Rodriguez</p>
+                <p>Equipa CFE</p>
+            </div>
+        </div>
+    </div>
+    <!--LOGOTIPOS--------------------------------------------------------------------------------------------->
+    <div id="logoContainer" class="main_container">
+        <div>
+            <h2 class="pessoas_organizacao_title">Organização</h2>
+            <div class="logo_container">
+                <img id="logoJBUC" class="individual_logo" src="/assets/img/logotipos/logotipoBotanico.png"
+                     width="1667" height="834"
+                     alt="logotipo a preto e branco do Jardim Botânico da Universidade de Coimbra">
+                <img id="logoUC" class="individual_logo" src="/assets/img/logotipos/logotipoUC.png" width="17292"
+                     height="3542"
+                     alt="logotipo a preto e branco da Universidade de Coimbra">
+                <img id="logoCFE" class="individual_logo" src="/assets/img/logotipos/logotipoCFE.png" width="855"
+                     height="250"
+                     alt="logotipo a preto e branco do Centro de Ecologia Funcional">
+                <img class="individual_logo" src="/assets/img/logotipos/logotipoCISUC.png" width="3306" height="446"
+                     alt="logotipo a preto e branco do Centro de Informática e Sistemas da Universidade de Coimbra">
+            </div>
+        </div>
+        <div style="padding-top: 40px">
+            <h2>Apoios</h2>
+            <div class="logo_container">
+                <img class="individual_logo" src="/assets/img/logotipos/logotipoCMC.png" width="3780" height="945"
+                     alt="logotipo a preto e branco da Câmara Municipal de Coimbra">
+                <img id="logoAguas" class="individual_logo" src="/assets/img/logotipos/logotipoAguasdeCoimbra.png"
+                     width="2084" height="959"
+                     alt="logotipo a preto e branco das Águas de Coimbra">
+                <img id="logo_SMTUC" class="individual_logo" src="/assets/img/logotipos/logotipoSMTUC.png" width="6875"
+                     height="2709"
+                     alt="logotipo a preto e branco dos Serviços Municipalizados de Transportes Urbanos de Coimbra">
+                <img id="logo_IIIUC" class="individual_logo" src="/assets/img/logotipos/logotipoIIIUC.png"
+                     width="10834"
+                     height="2917"
+                     alt="logotipo a preto e branco do Instituto de Investigação Interdisciplinar da Universidade de Coimbra">
+                <img class="individual_logo" src="/assets/img/logotipos/logotipoFCT.png" width="1250" height="438"
+                     alt="logotipo a preto e branco da Fundação para a Ciência e a Tecnologia">
+                <img class="individual_logo" src="/assets/img/logotipos/logotipoRepublica.png" width="959" height="334"
+                     alt="logotipo a preto e branco da República Portuguesa">
+                <img class="individual_logo" src="/assets/img/logotipos/logotipoDEI.png" width="2417" height="750"
+                     alt="logotipo a preto e branco do Departamento de Engenheiria Informática da Universidade de Coimbra">
+                <img id="logo_DCV" class="individual_logo" src="/assets/img/logotipos/logotipoDCV.png" width="1975"
+                     height="729"
+                     alt="logotipo a preto e branco do Departamento de Ciências da Vida da Universidade de Coimbra">
+                <img class="individual_logo" src="/assets/img/logotipos/logotipoPCC.png" width="6667" height="1667"
+                     alt="logotipo a preto e branco da Promoção da Cultura Científica">
+            </div>
+        </div>
+    </div>
+</main>
+<footer id="footer">
+    <p class="footer_row" style="font-weight: 700">EXPOSIÇÃO INSIDE OUT</p>
+    <div class="footer_row">
+        <div class="footer_col1">
+            <div class="info_footer_container">
+                <p>A partir de 18 de março de 2023</p>
+                <a href="https://goo.gl/maps/sbGgoUzZmMMs39Mb9" target="_blank"><img class="display_inline"
+                                                                                     src="/assets/img/localizacao.png"
+                                                                                     width="1400"
+                                                                                     height="1824"
+                                                                                     alt="simbolo de localização">
+                    <p class="display_inline">No Jardim Botânico da Universidade de Coimbra</p></a>
+            </div>
+        </div>
+        <div class="footer_col2">
+            <div class="info_footer_container">
+                <p>Contacte-nos através do email:</p>
+                <a href="mailto:dentro.fora.18@gmail.com">dentro.fora.18@gmail.com</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer_row">
+        <div class="credits_footer_container footer_col1">
+            <p>© Inside Out</p>
+        </div>
+        <div class="credits_footer_container footer_col2">
+            <p>Design by Íris Pereira</p>
+        </div>
+    </div>
+</footer>
+<script src="js/sobre.js"></script>
+<script src="js/processo.js"></script>
+<script src="js/saberMais.js"></script>
+<script src="js/geral.js"></script>
+</body>
+</html>

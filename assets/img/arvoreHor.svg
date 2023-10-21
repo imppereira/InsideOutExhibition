@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 696.8 453.8" style="enable-background:new 0 0 696.8 453.8;" xml:space="preserve">
+<style type="text/css">
+	<!--LINHA TRACEJADO-->
+	.st0{fill:none;
+	stroke:#333333;
+	stroke-width:3;
+	stroke-linecap:round;
+	stroke-miterlimit:1.396;
+	stroke-dasharray:5,10;
+	stroke-dashoffset:1;}
+	<!--NOME ESPÉCIE-->
+	.st1{fill:#333333;}
+	.st2{font-family:'Lato-Regular';}
+	.st3{font-size:9.5px;}
+	<!--LINHA AZUL-->
+	.st4{fill:none;stroke:#333399;stroke-width:4;stroke-linecap:round;stroke-miterlimit:1.0639;}
+	<!--CÍRCULOS-->
+	.st5{fill:#66CCCC;stroke:#333399;stroke-width:3;stroke-miterlimit:1.0639;}
+	<!--TEXTO e LINHAS TREE SCALE-->
+	.st6{fill:#505050;}
+	.st7{font-family:'Arial-BoldMT';}
+	.st8{font-size:10px;}
+	.st9{fill:none;stroke:#505050;stroke-miterlimit:10;}
+</style>
+<g id="legendHolder">
+</g>
+<g>
+	<g id="mainHolder" transform="translate(348.87868,218.87447) rotate(125) scale(0.10639,0.10639)">
+		<g id="rangeHolder">
+		</g>
+		<g id="rangeDatasetHolder">
+		</g>
+		<g id="pruningHolder">
+		</g>
+		<g id="treeHolder">
+			<!--Prunus cerasifera-->
+			<g id="sp1_mapa_botanico" class="sp_mapa_botanico" style="cursor:pointer">
+				<path class="st0" d="M-35.5,1815.6l294.3-270.9"/>
+				<text transform="matrix(6.9153 -6.366 6.366 6.9153 -522.6224 2300.6848)" class="st1 st2 st3">Prunus cerasifera</text>
+				<path class="st4" d="M258.8,1544.6l40.1-36.9"/>
+			</g>
+			<!--Prunus domestica-->
+			<g>
+				<path class="st0" d="M19.7,1866.4l245.7-315.7"/>
+				<text transform="matrix(5.7732 -7.4174 7.4174 5.7732 -390.4545 2437.3738)" class="st1 st2 st3">Prunus domestica</text>
+				<path class="st4" d="M265.4,1550.7l33.5-43"/>
+			</g>
+			<!--Cydonia obloga-->
+			<g>
+				<path class="st0" d="M134.4,1944.5l190.4-351.8"/>
+				<text transform="matrix(4.4736 -8.2665 8.2665 4.4736 -131.1978 2492.0818)" class="st1 st2 st3">Cydonia obloga</text>
+				<path class="st4" d="M324.8,1592.7l148.6-274.5"/>
+			</g>
+			<!--Ficus macrophylla-->
+			<g>
+				<path class="st0" d="M328.1,2038.2L458,1659.9"/>
+				<text transform="matrix(3.052 -8.8901 8.8901 3.052 124.244 2715.1165)" class="st1 st2 st3">Ficus macrophylla</text>
+				<path class="st4" d="M458,1659.9L655.7,1084"/>
+			</g>
+			<!--Quercus canariensis-->
+			<g>
+				<path class="st0" d="M-368,1202.4l398.6-33"/>
+				<text transform="matrix(-9.3672 0.7762 -0.7762 -9.3672 -370.1879 1175.4692)" class="st1 st2 st3">Quercus canariensis</text>
+				<path class="st4" d="M30.7,1169.3l75.5-6.3"/>
+			</g>
+			<!--Castanea sativa-->
+			<g>
+				<path class="st0" d="M-355,1279.9l387.8-98.2"/>
+				<text transform="matrix(-9.1117 2.3074 -2.3074 -9.1117 -361.6573 1253.7021)" class="st1 st2 st3">Castanea sativa</text>
+				<path class="st4" d="M32.7,1181.7l73.4-18.6"/>
+			</g>
+			<!--Fagus sylvatica-->
+			<g>
+				<path class="st0" d="M-317.4,1394.9l366.3-160.7"/>
+				<text transform="matrix(-8.6077 3.7757 -3.7757 -8.6077 -328.2327 1370.1923)" class="st1 st2 st3">Fagus sylvatica</text>
+				<path class="st4" d="M48.9,1234.2l226.7-99.4"/>
+			</g>
+			<!--Myrica faya-->
+			<g>
+				<path class="st0" d="M-219.6,1595.9l334.9-218.8"/>
+				<text transform="matrix(-7.8688 5.1409 -5.1409 -7.8688 -234.3509 1573.3022)" class="st1 st2 st3">Myrica faya</text>
+				<path class="st4" d="M115.3,1377.1l504.2-329.4"/>
+			</g>
+			<!--Erythrina senegalensis-->
+			<g>
+				<path class="st0" d="M524.2,2093.9l65.8-394.5"/>
+				<text transform="matrix(1.5471 -9.2711 9.2711 1.5471 404.8686 2973.2493)" class="st1 st2 st3">Erythrina senegalensis</text>
+				<path class="st4" d="M590.1,1699.3l114.1-684"/>
+			</g>
+			<!--Dovyalis caffra-->
+			<g>
+				<path class="st0" d="M718.2,2114.9l0-400"/>
+				<text transform="matrix(6.331260e-06 -9.3993 9.3993 6.331260e-06 745.174 2700.3489)" class="st1 st2 st3">Dovyalis caffra</text>
+				<path class="st4" d="M718.2,1714.9l0-712.4"/>
+			</g>
+			<!--Aesculus californica-->
+			<g>
+				<path class="st0" d="M1015,2078.4l-65.8-394.5"/>
+				<text transform="matrix(-1.5471 -9.2711 9.2711 -1.5471 1170.0608 2843.4092)" class="st1 st2 st3">Aesculus californica</text>
+				<path class="st4" d="M949.2,1683.8l-7.6-45.4"/>
+			</g>
+			<!--Aesculus hippocastanum-->
+			<g>
+				<path class="st0" d="M1086.4,2060.3L956.6,1682"/>
+				<text transform="matrix(-3.052 -8.8901 8.8901 -3.052 1427.3716 2970.2578)" class="st1 st2 st3">Aesculus hippocastanum</text>
+				<path class="st4" d="M956.6,1682l-14.9-43.5"/>
+			</g>
+			<!--Acer palmatum-->
+			<g>
+				<path class="st0" d="M1207.3,2009.9l-190.4-351.8"/>
+				<text transform="matrix(-4.4736 -8.2665 8.2665 -4.4736 1516.3193 2524.1726)" class="st1 st2 st3">Acer palmatum</text>
+				<path class="st4" d="M1016.9,1658.1l-132.2-244.3"/>
+			</g>
+			<!--Tilia europaea-->
+			<g>
+				<path class="st0" d="M1406.3,1891.7L1160.6,1576"/>
+				<text transform="matrix(-5.7732 -7.4174 7.4174 -5.7732 1769.6266 2314.4922)" class="st1 st2 st3">Tilia europaea</text>
+				<path class="st4" d="M1160.6,1576l-394-506.2"/>
+			</g>
+			<!--Eucalyptus globulus-->
+			<g>
+				<path class="st0" d="M1584.3,1726.7L1290,1455.8"/>
+				<text transform="matrix(-6.9153 -6.366 6.366 -6.9153 2176.6973 2235.3606)" class="st1 st2 st3">Eucalyptus globulus</text>
+				<path class="st4" d="M1290,1455.8l-182.1-167.7"/>
+			</g>
+			<!--Callistemon rigidus-->
+			<g>
+				<path class="st0" d="M1650,1642.3l-334.9-218.8"/>
+				<text transform="matrix(-7.8688 -5.141 5.141 -7.8688 2297.0134 2032.7828)" class="st1 st2 st3">Callistemon rigidus</text>
+				<path class="st4" d="M1315.1,1423.5l-207.2-135.4"/>
+			</g>
+			<!--Liquidambar styraciflua-->
+			<g>
+				<path class="st0" d="M1791.6,1430.2l-366.3-160.7"/>
+				<text transform="matrix(-8.6077 -3.7757 3.7757 -8.6077 2649.6301 1777.127)" class="st1 st2 st3">Liquidambar styraciflua</text>
+				<path class="st4" d="M1425.3,1269.6L735.6,967"/>
+			</g>
+			<!--Nerium oleander-->
+			<g>
+				<path class="st0" d="M1863.1,1242.1l-387.8-98.2"/>
+				<text transform="matrix(-9.1117 -2.3074 2.3074 -9.1117 2514.8391 1379.3223)" class="st1 st2 st3">Nerium oleander</text>
+				<path class="st4" d="M1475.4,1143.9l-715-181.1"/>
+			</g>
+			<!--Phytolacca dioica-->
+			<g>
+				<path class="st0" d="M1894.1,1056.8l-398.6-33"/>
+				<text transform="matrix(-9.3672 -0.7762 0.7762 -9.3672 2577.0349 1086.328)" class="st1 st2 st3">Phytolacca dioica</text>
+				<path class="st4" d="M1495.4,1023.8l-735.1-60.9"/>
+			</g>
+			<!--Grevillea robusta-->
+			<g>
+				<path class="st0" d="M1924.7,746.8l-398.6,33"/>
+				<text transform="matrix(-9.3672 0.7762 -0.7762 -9.3672 2598.7017 663.8218)" class="st1 st2 st3">Grevillea robusta</text>
+				<path class="st4" d="M1526,779.8l-65,5.4"/>
+			</g>
+			<!--Hakea suaveolens-->
+			<g>
+				<path class="st0" d="M1912,671l-387.8,98.2"/>
+				<text transform="matrix(-9.1117 2.3074 -2.3074 -9.1117 2586.8516 472.2238)" class="st1 st2 st3">Hakea suaveolens</text>
+				<path class="st4" d="M1524.3,769.2l-63.3,16"/>
+			</g>
+			<!--Platanus hispanica-->
+			<g>
+				<path class="st0" d="M1845.5,458.8l-366.3,160.7"/>
+				<text transform="matrix(-8.6077 3.7757 -3.7757 -8.6077 2500.9553 141.8273)" class="st1 st2 st3">Platanus hispanica</text>
+				<path class="st4" d="M1479.2,619.5L880.7,882"/>
+			</g>
+			<!--Berberis vulgaris-->
+			<g>
+				<path class="st0" d="M1748,248.4l-334.9,218.8"/>
+				<text transform="matrix(-7.8688 5.1409 -5.1409 -7.8688 2289.155 -137.3649)" class="st1 st2 st3">Berberis vulgaris</text>
+				<path class="st4" d="M1413.2,467.2L734.9,910.3"/>
+			</g>
+			<!--Livistona chinensis-->
+			<g>
+				<path class="st0" d="M1635.6,50l-294.3,270.9"/>
+				<text transform="matrix(6.9153 -6.366 6.366 6.9153 1653.8743 69.8145)" class="st1 st2 st3">Livistona chinensis</text>
+				<path class="st4" d="M1341.3,320.9L726.7,886.6"/>
+			</g>
+			<!--Cinnamomum camphora-->
+			<g>
+				<path class="st0" d="M1436.3-124.7L1190.6,191"/>
+				<text transform="matrix(5.7732 -7.4174 7.4174 5.7732 1457.6042 -108.092)" class="st1 st2 st3">Cinnamomum camphora</text>
+				<path class="st4" d="M1190.6,191l-95.4,122.6"/>
+			</g>
+			<!--Persea americana-->
+			<g>
+				<path class="st0" d="M1359.5-174.8l-190.4,351.8"/>
+				<text transform="matrix(4.4736 -8.2665 8.2665 4.4736 1383.2581 -161.9998)" class="st1 st2 st3">Persea americana</text>
+				<path class="st4" d="M1169.1,176.9l-74,136.7"/>
+			</g>
+			<!--Liriodendron tulipifera-->
+			<g>
+				<path class="st0" d="M1135.4-280.2L1005.5,98.1"/>
+				<text transform="matrix(3.052 -8.8901 8.8901 3.052 1160.9564 -271.4081)" class="st1 st2 st3">Liriodendron tulipifera</text>
+				<path class="st4" d="M1005.5,98.1L750.4,841.3"/>
+			</g>
+			<!--Juniperus squamata-->
+			<g>
+				<path class="st0" d="M-724.8-2187.9l-65.8,394.5"/>
+				<text transform="matrix(1.5471 -9.2711 9.2711 1.5471 -698.2093 -2183.4644)" class="st1 st2 st3">Juniperus squamata</text>
+				<path class="st4" d="M-790.7-1793.4l-28.1,168.7"/>
+			</g>
+			<!--Chamaecyparis lawsoniana-->
+			<g>
+				<path class="st0" d="M-818.8-2195.7l0,400"/>
+				<text transform="matrix(6.331260e-06 -9.3993 9.3993 6.331260e-06 -791.8247 -2195.7075)" class="st1 st2 st3">Chamaecyparis lawsoniana</text>
+				<path class="st4" d="M-818.8-1795.7l0,171"/>
+			</g>
+			<!--Thujopsis dolobrata-->
+			<g>
+				<path class="st0" d="M-914.7-2187.8l65.8,394.5"/>
+				<text transform="matrix(-1.5471 -9.2711 9.2711 -1.5471 -888.103 -2192.2805)" class="st1 st2 st3">Thujopsis dolobrata</text>
+				<path class="st4" d="M-848.9-1793.3l29.4,176.3"/>
+			</g>
+			<!--Cryptomeria japonia-->
+			<g>
+				<path class="st0" d="M-1030.7-2160.5l129.9,378.3"/>
+				<text transform="matrix(-3.052 -8.8901 8.8901 -3.052 -1005.1617 -2169.2485)" class="st1 st2 st3">Cryptomeria japonia</text>
+				<path class="st4" d="M-900.8-1782.2l81.3,237"/>
+			</g>
+			<!--Sequoia sempervirens-->
+			<g>
+				<path class="st0" d="M-1136-2115.3l190.4,351.8"/>
+				<text transform="matrix(-4.4736 -8.2665 8.2665 -4.4736 -1112.2631 -2128.1177)" class="st1 st2 st3">Sequoia sempervirens</text>
+				<path class="st4" d="M-945.6-1763.5l127.6,235.8"/>
+			</g>
+			<!--Taxus baccata-->
+			<g>
+				<path class="st0" d="M-1295.5-2025.5l245.7,315.7"/>
+				<text transform="matrix(-5.7732 -7.4174 7.4174 -5.7732 -1274.1494 -2042.0684)" class="st1 st2 st3">Taxus baccata</text>
+				<path class="st4" d="M-1049.8-1709.8l256.3,329.3"/>
+			</g>
+			<!--Afrocarpus falcatus-->
+			<g>
+				<path class="st0" d="M-1494.5-1871.9l294.3,270.9"/>
+				<text transform="matrix(-6.9153 -6.366 6.366 -6.9153 -1476.2125 -1891.8015)" class="st1 st2 st3">Afrocarpus falcatus</text>
+				<path class="st4" d="M-1200.2-1601l386.1,355.4"/>
+			</g>
+			<!--Araucaria heterophylla-->
+			<g>
+				<path class="st0" d="M-1588.3-1751.4l334.9,218.8"/>
+				<text transform="matrix(-7.8688 -5.141 5.141 -7.8688 -1573.5394 -1774.0127)" class="st1 st2 st3">Araucaria heterophylla</text>
+				<path class="st4" d="M-1253.4-1532.6l439.3,287"/>
+			</g>
+			<!--Abies alba-->
+			<g>
+				<path class="st0" d="M-1776.2-1467.4l366.3,160.7"/>
+				<text transform="matrix(-8.6077 -3.7757 3.7757 -8.6077 -1765.325 -1492.1388)" class="st1 st2 st3">Abies alba</text>
+				<path class="st4" d="M-1409.9-1306.7l186.6,81.9"/>
+			</g>
+			<!--Cedrus atlantica-->
+			<g>
+				<path class="st0" d="M-1808.5-1373.1l387.8,98.2"/>
+				<text transform="matrix(-9.1117 -2.3074 2.3074 -9.1117 -1801.9224 -1399.2675)" class="st1 st2 st3">Cedrus atlantica</text>
+				<path class="st4" d="M-1420.8-1274.9l197.6,50"/>
+			</g>
+			<!--Ginkgo biloba-->
+			<g>
+				<path class="st0" d="M-2252.7-466.4l398.6,33"/>
+				<text transform="matrix(-9.3672 -0.7762 0.7762 -9.3672 -2250.4834 -493.3116)" class="st1 st2 st3">Ginkgo biloba</text>
+				<path class="st4" d="M-1854.1-433.4l1660.9,137.6"/>
+			</g>
+			<g>
+				<path class="st4" d="M-1223.2-1224.9l545.3,187.2"/>
+				<circle class="st5" cx="-1223.2" cy="-1224.9" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-818.8-1624.7l-0.6,7.7"/>
+				<circle class="st5" cx="-818.8" cy="-1624.7" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-819.5-1616.9v71.7"/>
+				<circle class="st5" cx="-819.5" cy="-1616.9" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-819.5-1545.2l1.5,17.5"/>
+				<circle class="st5" cx="-819.5" cy="-1545.2" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-818-1527.7l24.6,147.1"/>
+				<circle class="st5" cx="-818" cy="-1527.7" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-793.5-1380.5l47.6,188.1"/>
+				<circle class="st5" cx="-793.5" cy="-1380.5" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-814.1-1245.6l68.3,53.2"/>
+				<circle class="st5" cx="-814.1" cy="-1245.6" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-745.8-1192.5l67.9,154.8"/>
+				<circle class="st5" cx="-745.8" cy="-1192.5" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-677.9-1037.7l484.7,741.9"/>
+				<circle class="st5" cx="-677.9" cy="-1037.7" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M-193.2-295.8L11.6-32.6"/>
+				<circle class="st5" cx="-193.2" cy="-295.8" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M1095.2,313.6L750.4,841.3"/>
+				<circle class="st5" cx="1095.2" cy="313.6" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M750.4,841.3l-24,44.4"/>
+				<circle class="st5" cx="750.4" cy="841.3" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M1461,785.2L880.7,882"/>
+				<circle class="st5" cx="1461" cy="785.2" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M880.7,882l-143.8,36.4"/>
+				<circle class="st5" cx="880.7" cy="882" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M1107.9,1288.1L735.2,998"/>
+				<circle class="st5" cx="1107.9" cy="1288.1" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M941.6,1638.5l-56.9-224.6"/>
+				<circle class="st5" cx="941.6" cy="1638.5" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M884.7,1413.8l-118.1-344.1"/>
+				<circle class="st5" cx="884.7" cy="1413.8" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M766.6,1069.8L735.2,998"/>
+				<circle class="st5" cx="766.6" cy="1069.8" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M735.2,998l-5.3-8.2"/>
+				<circle class="st5" cx="735.2" cy="998" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M106.1,1163.1l169.5-28.3"/>
+				<circle class="st5" cx="106.1" cy="1163.1" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M275.6,1134.8l343.8-87.1"/>
+				<circle class="st5" cx="275.6" cy="1134.8" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M619.5,1047.7l77.2-26.5"/>
+				<circle class="st5" cx="619.5" cy="1047.7" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M298.9,1507.7l174.5-189.5"/>
+				<circle class="st5" cx="298.9" cy="1507.7" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M473.4,1318.2L655.7,1084"/>
+				<circle class="st5" cx="473.4" cy="1318.2" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M655.7,1084l41-62.8"/>
+				<circle class="st5" cx="655.7" cy="1084" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M696.7,1021.2l7.5-5.9"/>
+				<circle class="st5" cx="696.7" cy="1021.2" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M704.2,1015.4l14-12.9"/>
+				<circle class="st5" cx="704.2" cy="1015.4" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M718.2,1002.5l11.6-12.6"/>
+				<circle class="st5" cx="718.2" cy="1002.5" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M729.8,989.9l5.8-22.8"/>
+				<circle class="st5" cx="729.8" cy="989.9" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M735.6,967l1.3-8.1"/>
+				<circle class="st5" cx="735.6" cy="967" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M760.4,962.9l-23.4-3.9"/>
+				<circle class="st5" cx="760.4" cy="962.9" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M736.9,959l0-40.5"/>
+				<circle class="st5" cx="736.9" cy="959" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M736.9,918.4l-2-8.1"/>
+				<circle class="st5" cx="736.9" cy="918.4" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M734.9,910.3l-8.1-23.7"/>
+				<circle class="st5" cx="734.9" cy="910.3" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M726.7,886.6l-0.4-0.9"/>
+				<circle class="st5" cx="726.7" cy="886.6" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M726.4,885.7L11.6-32.6"/>
+				<circle class="st5" cx="726.4" cy="885.7" r="15"/>
+			</g>
+			<g>
+				<path class="st4" d="M11.6-32.6L11.6-32.6"/>
+				<circle class="st5" cx="11.6" cy="-32.6" r="15"/>
+			</g>
+		</g>
+		<g id="scaleHolder">
+		</g>
+		<g id="bootstrapHolder">
+		</g>
+		<g id="branchlengthHolder">
+		</g>
+		<g id="branchIDHolder">
+		</g>
+		<g id="datasetHolder">
+		</g>
+	</g>
+	<g id="wrapperHolder">
+		<g>
+			<text transform="matrix(1 0 0 1 536.9935 443.9175)" class="st6 st7 st8">Tree scale: 100</text>
+			<path class="st9" d="M622.4,440.3h65.5"/>
+			<path class="st9" d="M622.4,437.3v6 M687.9,437.3v6 M655.1,440.3v2"/>
+		</g>
+	</g>
+</g>
+</svg>
